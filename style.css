@@ -174,3 +174,42 @@ footer {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
+.contact {
+    margin-top: 60px;
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    color: #4F382A;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: #5B4636;
+    margin-bottom: 25px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #D9A066;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+    color: #B5804E;
+}
