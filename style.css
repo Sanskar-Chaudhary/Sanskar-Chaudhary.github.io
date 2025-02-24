@@ -30,9 +30,12 @@ nav {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #4F382A;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .hamburger {
@@ -73,22 +76,22 @@ body {
 }
 
 header {
-    margin-top: 100px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .avatar-container {
     position: relative;
-    width: 240px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
 }
 
 .avatar-frame {
-    width: 240px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     background: linear-gradient(135deg, #FFF3E0, #DDB892);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -98,12 +101,11 @@ header {
 }
 
 .avatar {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid #FFF;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease;
 }
 
 .avatar:hover {
@@ -331,6 +333,20 @@ footer {
     .navbar li {
         text-align: center;
         padding: 10px 0;
+    }
+
+    header {
+        margin-top: 60px;
+    }
+
+    .avatar-frame {
+        width: 180px;
+        height: 180px;
+    }
+
+    .avatar {
+        width: 160px;
+        height: 160px;
     }
 }
 
