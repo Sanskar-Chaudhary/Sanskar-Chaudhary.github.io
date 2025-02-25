@@ -368,7 +368,7 @@ footer {
 /* Laptop L (1440px) */
 @media (max-width: 1440px) {
     .hero {
-        gap: 40px;
+        gap: 100px;
     }
 
     .hero-text h1 {
@@ -379,7 +379,7 @@ footer {
 /* Laptop (1024px) */
 @media (max-width: 1024px) {
     .hero {
-        gap: 30px;
+        gap: 100px;
     }
 
     .hero-avatar {
@@ -403,6 +403,8 @@ footer {
         text-align: center;
         padding: 40px 10vw;
         padding-top: 80px;
+        gap: 40px;
+
 
     }
 
