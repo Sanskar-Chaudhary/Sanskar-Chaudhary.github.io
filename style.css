@@ -612,8 +612,15 @@ footer {
     }
 
     /* Projects */
+     .project-container {
+        display: flex; /* Change grid to flex so items can shrink */
+        flex-direction: column; /* Stack them vertically */
+        align-items: center; /* Ensure they are centered */
+    }
+
     .project-card {
-        width: 86%;
+        width: 90vw; /* Use viewport width for better scaling */
+        max-width: 250px; /* Prevent it from getting too large */
     }
 
 }
