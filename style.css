@@ -85,25 +85,7 @@ header {
     gap: 10px;
 }
 
-.avatar-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.avatar-frame {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #FFF3E0, #DDB892);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.avatar:hover {
+.hero-avatar:hover {
     transform: scale(1.05);
 }
 
@@ -593,8 +575,7 @@ footer {
     }
 
     .hero-tagline {
-        font-size: 0.9rem;
-    }
+        font-size: 1.23rem;    }
 
     .hero-avatar {
         width: 140px;

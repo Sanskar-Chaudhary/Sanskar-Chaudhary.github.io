@@ -11,3 +11,10 @@ document.addEventListener("click", function (event) {
         navbar.classList.remove("active");
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector('a[href="#home"]').addEventListener("click", function (e) {
+        e.preventDefault(); // Prevent default anchor behavior
+        window.scrollTo({ top: 0, behavior: "smooth" }); // Smooth scroll to top
+    });
+});
